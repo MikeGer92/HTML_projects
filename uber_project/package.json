@@ -9,8 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "browser-sync": "^2.26.14",
     "cli": "^1.0.1",
+    "css": "^3.0.0",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean": "^0.4.0",
     "gulp-sass": "^4.1.0"
   }
 }
