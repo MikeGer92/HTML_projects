@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.main {
+    border: 4px solid;
+    color: rgb(187, 82, 187);
+    margin: 1px 1px 1px 1px;
+    margin-bottom: 190px; 
+}
+
+/* 2. Для всего сайта задать разновидность шрифта: */
+body{
+    font-family: sans-serif;
+}
+.over-main {
+    /* display: flex;
+    flex-direction: column;
+    height: 100%; */
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    border: 5px solid;
+    border-color: red;
+    padding: 1px 1px 1px 1px;
+}
+.menu {
+    border: 3px solid;
+    color: forestgreen;
+    margin-top: 34px;
+    margin-left: 113px;
+    margin-right: 113px;
+    /* margin-bottom: 107px; */
+}
+.el-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.el {
+    display: block;
+}
+.header {
+    flex-grow: 1;
+    width: 510px;
+    border: 2px solid;
+    border-color: lightskyblue;
+    margin-left: 113px;
+    margin-top: 189px;
+}
+.contacts-header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 510px;
+    border: 2px solid;
+    border-color: lightskyblue;
+
+}
+.what-we-do-container {
+    padding-top: 64px;
+    border: 4px solid; 
+    border-color:  rgb(187, 82, 187);
+}
+.product-container {
+    padding-top: 64px;
+    border: 3px solid; 
+    border-color:  forestgreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 64px;   
+}
+.main-middle {
+    display: flex;
+    justify-content: space-around;
+}
+.product-card {
+    width: 359px;
+    border: 2px solid;
+    padding: 44px 32px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card__link {
+    font-size: 14px;
+    line-height: 214%;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+.main-down {
+    border: 3px solid;
+    border-color: red;
+    margin: 2px 2px 2px 2px;
+}
+.main_parent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 112px;
+}
+.main_item {
+    position: relative;
+    flex-grow: 1;
+}
+.main_item_margin{
+    margin-right: 32px;
+}
+.img_main {
+    width: 100%;
+}
+
+.main-down_text {
+    font-size: 32px;
+    line-height: 144%;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.main-down_text_left {
+    font-size: 28px;
+    line-height: 164%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    text-align: left;
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+.footer {
+    background: #316099;
+    border: 5px solid;
+    border-color: red;
+    padding: 1px 1px 1px 1px;
+}
+.container {
+    width: 91.58%;
+    margin-top: 91px;
+    margin-left: 113px;
+}
+
+.into-footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-top: 32px;
+    margin-bottom: 112px;
+    margin-right: 115px; */
+    border: 3px solid;
+    border-color:lemonchiffon;
+    margin: 2px 2px 2px 2px;
+}
+.in-footer-top {
+    width: *95px;
+    border: 2px solid;
+    border-color: pink;
+    margin: 1px 1px 1px 1px;
+}
+.footer-top-heading{
+    height: 92px;
+    font-size: 36px;
+    line-height: 128%;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.into-footer-down {
+    border: 3px solid;
+    border-color:rgb(132, 192, 43);
+    margin: 2px 2px 2px 2px;
+}
+.in-footer-down {
+    border: 2px solid;
+    color: gray;
+    margin: 1px 1px 1px 1px;
+}
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+}
+.footer_text {
+    color: #FFFFFF !important;
+    margin-top: 32px;
+}
+
+/* 3. Для всех параграфов присвоить класс и задать стили */
+
+}
+.main-text {
+    width: 425px;
+}
+.pstyle {
+    font-size: 16px;
+    line-height: 162%;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
+.text_project {
+    width: 75%;
+    margin: 32px auto 64px;
+    letter-spacing: 0.05em;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+}
+/* 4. Для заголовка h1 создать класс и присвоить стили: */
+.heading1 {
+    width: 504px;
+    color: #1F3F68;
+    letter-spacing: 0.04em;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 32px;
+}
+/* 5. Для заголовка h2 (на странице контакты) создать класс и присвоить стили: */
+.heading2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+    color: #1F3F68;
+}
+/* 6. Заголовку h3 создать класс и задать стили: */
+
+.heading3 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 128%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+;
+}
+/* 7. Заголовкам h4 создать класс и задать стили */
+.heading4 {
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.05em;
+    color: #1F3F68;  
+    margin-bottom: 14px; 
+}
+/* 8. Для всех полей ввода (input, textarea) задать общий класс и к нему стили: */
+.inputs {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4; 
+}
+/* 9. Кнопке отправки формы присвоить класс и к нему стиль: */
+.buttons {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.top__button {
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+.button {
+    position: absolute;
+    margin-top: 74px;
+    margin-bottom: 74px;
+    margin-left: 902px;
+}
+
+.footer__button {
+    font-size: 16px;
+    line-height: 162%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    padding: 15px 80px;
+    text-decoration: none;
+    display: inline-block;
+    /* margin-top: 74px;
+    margin-bottom: 74px;
+    margin-right: 115px; */
+    /* margin-bottom: 436px; */
+
+}
+
+.top__box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url(img/svg/illustration.svg);
+    background-repeat: no-repeat;
+    background-position-x: 92%;
+    background-position-y: 35%;
+}
+
+.img__card {
+    align-self: center;
+    margin-bottom: 52px;
+}
