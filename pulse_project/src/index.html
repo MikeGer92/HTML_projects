@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/slick.css" />
     <link rel="stylesheet" href="css/style.min.css">
     <title>Pulse</title>
 </head>
 
 <body>
-    <div class="promo">
+    <section class="promo">
         <div class="container">
             <div class="header">
                 <a href="#" class="header__logo">
@@ -55,8 +56,9 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="advant">
+    </section>
+
+    <section class="advant">
         <div class="container">
             <div class="advant__header">
                 НАШИ ПРЕИМУЩЕСТВА
@@ -94,8 +96,44 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
+    <section class="consultation">
+        <div class="container">
+            <h2 class="title title_left">
+                Получите бесплатную консультацию <br>
+                по подбору пульсометра
+            </h2>
+            <div class="consultation__descr">
+                Просто заполните форму заявки<br>
+                и мы перезвоним вам в течении 10 минут
+            </div>
+            <form class="feed-form" action="#">
+                <input name="name" required placeholder="Ваше имя" type="text">
+                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="email" required placeholder="Ваше E-mail" type="email">
+
+                <button class="button button_submit">заказать консульацию</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div class="your_content"><img src="img/slider1.png" alt="slide1"></div>
+                <div class="your_content"><img src="img/slider2.png" alt="slide2"></div>
+                <div class="your_content"><img src="img/slider3.png" alt="slide3"></div>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
